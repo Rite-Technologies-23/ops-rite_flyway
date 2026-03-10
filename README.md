@@ -15,6 +15,7 @@ The GitHub Action performs the following steps:
 * Folder Structure
 
 # Folder Structure
+```
 .
 ├── .github
 │   └── workflows
@@ -25,6 +26,7 @@ The GitHub Action performs the following steps:
 │   └── 02_create_tables.sql
 │
 └── README.md
+```
 
 # Required GitHub Secrets
 
@@ -122,8 +124,9 @@ The workflow will:
 * SQL files placed in /sql folder
 
 # Benefits of This Setup
-
+```
 ✔ Automates database setup
 ✔ Works with CI/CD pipelines
 ✔ Keeps database scripts version controlled
 ✔ Easy to run manually
+```
